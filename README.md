@@ -2,9 +2,9 @@
 
 Code for the paper "Max-sparsity atomic autoencoders with application to inverse problems" (SSVM 2025)
 (submitted).
-[Paper](https://example.org)
+[Paper](https://hal.science/hal-04773954)
 
-[Ali Joundi](ali.joundi@u-bordeaux.fr), 
+[Ali Joundi](ali.joundi@u-bordeaux.fr), [Yann Traonmilin](https://yanntraonmilin.perso.math.cnrs.fr/), [Alasdair Newson](https://sites.google.com/site/alasdairnewson/home)
 
 
 
