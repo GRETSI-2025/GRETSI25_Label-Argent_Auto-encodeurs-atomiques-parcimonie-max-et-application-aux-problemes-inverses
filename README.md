@@ -1,8 +1,7 @@
-# Max-sparsity atomic autoencoders with application to inverse problems
+# Auto-encodeurs atomiques parcimonie-max et application aux problèmes inverses
 
-Code for the paper "Max-sparsity atomic autoencoders with application to inverse problems" (SSVM 2025)
-(submitted).
-[Paper](https://hal.science/hal-04773954)
+Code for the paper "Auto-encodeurs atomiques parcimonie-max et application aux problèmes inverses" (GRETSI 2025)
+
 
 [Ali Joundi](ali.joundi@u-bordeaux.fr), [Yann Traonmilin](https://yanntraonmilin.perso.math.cnrs.fr/), [Alasdair Newson](https://sites.google.com/site/alasdairnewson/home)
 
