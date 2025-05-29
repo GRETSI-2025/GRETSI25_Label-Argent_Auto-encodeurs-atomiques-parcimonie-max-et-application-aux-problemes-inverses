@@ -129,4 +129,4 @@ inputs=((inputs.detach().numpy()))[:,0]
 Sup_res_display_results(inputs,projection)
 
 
-
+#Sup_res_on_multiple_images(inputs,len(inputs),projection):

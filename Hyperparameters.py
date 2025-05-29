@@ -18,8 +18,9 @@ size_block=10  #corresponds to the structure of the latent code. Note : Latent_d
 operation="max"   #Other choice : "sum" or "simple" (to choose a simple autoencoder, might fail on scripts designed specifically for Atomic autoencoders)
 batch_size = 64  
 learning_rate = 0.0001
-epochs = 2 
-subset_size = 10
+epochs = 2   #Default 500 - may take some time
+dataset_size=10 #Train dataset size Default 30000 half the dataset
+subset_size = 600   #Default 600
 visualize_interval = 10  
 blur=0.7
 

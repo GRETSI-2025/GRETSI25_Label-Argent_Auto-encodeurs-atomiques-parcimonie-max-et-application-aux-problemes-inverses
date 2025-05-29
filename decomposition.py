@@ -94,8 +94,10 @@ def affiche_decomposition_inputs(inputs,indx_inputs,projection):
 # Testing
 #===================================================================
 
-test_loader=generate_unique_dataloader(subset_size,batch_size)
+test_loader=generate_unique_dataloader(subset_size,subset_size)
 inputs,_=next(iter(test_loader))
 projection=import_projection(pretrained_model_file,torch.device("cpu"))
 
 affiche_decomposition_inputs(inputs,0,projection)
+
+number_activated_atomes_and_norm(inputs,projection)

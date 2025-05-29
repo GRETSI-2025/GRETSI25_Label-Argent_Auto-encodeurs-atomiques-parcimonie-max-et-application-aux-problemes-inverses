@@ -28,7 +28,7 @@ newpath=create_folder(cluster_path)
 # IMPORT the corresponding dataset
 #===================================================================
 
-train_loader,test_loader=generate_dataloader(subset_size,batch_size)
+train_loader,test_loader=generate_dataloader(dataset_size,batch_size)
 train_loader = DeviceDataLoader(train_loader, device)
 test_loader = DeviceDataLoader(test_loader, device)
 
@@ -60,7 +60,7 @@ with open(newpath+"/Architecture_et_HP.txt", 'w') as f:
     f.write("Batch size : "+str(batch_size)+"\n")
     f.write("Number of epochs : "+str(epochs)+"\n")
     f.write("Dataset : "+datasets_NAME+"\n")
-    f.write("Dataset Size : "+str(subset_size)+"\n")
+    f.write("Dataset Size : "+str(dataset_size)+"\n")
     f.write("Operation of the AAE : "+operation+"\n")
     
 
