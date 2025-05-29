@@ -26,6 +26,11 @@ decomposition.py : Displays the decomposition a given atomic autoencoder achieve
 Inverse_problem: Solve the super resolution inverse problem. __
 Inverse_problem_hyperparameter.py: Hyperparameters of the inverse problem (step_size, iterations...)__
 
+
+## Reproductible figures and results
+Figure 2 - 3 - 4 - 5__
+Recovery PSNRs can be computed via the scripts but the tables 1 and 2 are not displayed.__
+
 ## Instructions to obtain figures/results
 
 ### Simple training
