@@ -8,36 +8,39 @@ Code for the paper "Auto-encodeurs atomiques parcimonie-max et application aux p
 
 
 ## Prerequisites
-The numerical experiments in the paper were computed with:__
-python 3.9.6, __
-torch 2.0.1,__
-Numpy 1.24.4,__
-Matplotlib 3.7.4,__
-Pillow 8.0.1__
+The numerical experiments in the paper were computed with:
+- python 3.9.6
+- torch 2.0.1
+- Numpy 1.24.4
+- Matplotlib 3.7.4
+- Pillow 8.0.1
 
 
 
 
 ## The code
-Several scripts are provided. __
-Hyperparameters.py : Allows to initialize variables, to choose the dataset and the desired atomic autoencoder __
-trainer.py : Trains from scratch an atomic autoencoder__
-decomposition.py : Displays the decomposition a given atomic autoencoder achieves__
-Inverse_problem: Solve the super resolution inverse problem. __
-Inverse_problem_hyperparameter.py: Hyperparameters of the inverse problem (step_size, iterations...)__
+Several scripts are provided:
+- Hyperparameters.py : Allows to initialize variables, to choose the dataset and the desired atomic autoencoder
+- trainer.py : Trains from scratch an atomic autoencoder
+- decomposition.py : Displays the decomposition a given atomic autoencoder achieves
+- Inverse_problem: Solve the super resolution inverse problem.
+- Inverse_problem_hyperparameter.py: Hyperparameters of the inverse problem (step_size, iterations...)
 
 
 ## Reproductible figures and results
-Figure 2 - 3 - 4 - 5__
-Recovery PSNRs can be computed via the scripts but the tables 1 and 2 are not displayed.__
+- Figure 2 - 3 - 4 - 5
+- Recovery PSNRs can be computed via the scripts but the tables 1 and 2 are not displayed.
 
 ## Instructions to obtain figures/results
 
 ### Simple training
-choose the desired options in Hyperparameters.py ie datasets_NAME (for the dataset MNIST, FASHION MNIST or CIFAR), dataset_size and operation (Simple, sum or max) and run:__
+choose the desired options in Hyperparameters.py ie datasets_NAME (for the dataset MNIST, FASHION MNIST or CIFAR), dataset_size and operation (Simple, sum or max) and run:
 
-python3 trainer.py__
-Return: folder (in Model_n_Res) with the model, the losses, the architecture and reconstruction figure.__
+```bash
+python3 trainer.py
+Return: folder (in Model_n_Res) with the model, the losses, the architecture and reconstruction figure.
+```
+
 
 ### Figure 2/3/4
 To decompose an image via a given atomic autoencoder and obtain the histograms, choose the desired options in Hyperparameters.py 
