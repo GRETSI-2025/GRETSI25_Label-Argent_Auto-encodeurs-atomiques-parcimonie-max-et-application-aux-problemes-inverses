@@ -8,13 +8,10 @@ Code for the paper "Auto-encodeurs atomiques parcimonie-max et application aux p
 
 
 ## Prerequisites
-The numerical experiments in the paper were computed with:
-- python 3.9.6
-- torch 2.0.1
-- Numpy 1.24.4
-- Matplotlib 3.7.4
-- Pillow 8.0.1
-
+The numerical experiments in the paper were computed with python 3.8.5. To install the same config as in the paper:
+```bash
+pip install -r requirements.txt
+```
 
 
 
