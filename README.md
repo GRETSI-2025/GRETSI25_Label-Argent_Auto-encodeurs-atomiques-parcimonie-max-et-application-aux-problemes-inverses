@@ -48,13 +48,13 @@ To decompose an image via a given atomic autoencoder and obtain the histograms, 
 ie datasets_NAME (for the dataset MNIST, FASHION MNIST or CIFAR), subset_size and operation (max or sum) and run:
 
 ```bash
-python3 decomposition.py__
+python3 decomposition.py
 ```
-Return: A decomposition image, and the histogram of activated atoms for the chosen dataset (of size subset_size)__
+Return: A decomposition image, and the histogram of activated atoms for the chosen dataset (of size subset_size)
 
 
 ### Figure 5 Table 2
-TO solve the super resolution inverse problem with a desired autoencoder, choose the dataset and the autoencoder type (simple, sum or min) in Hyperparameters.py. Inverse_problem_hyperparameter.py contains the parameters of the inverse problem (number of iterations, step size etc...). Run:__
+TO solve the super resolution inverse problem with a desired autoencoder, choose the dataset and the autoencoder type (simple, sum or min) in Hyperparameters.py. Inverse_problem_hyperparameter.py contains the parameters of the inverse problem (number of iterations, step size etc...). Run:
 
 ```bash
 python3 inverse_problem.py
