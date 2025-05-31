@@ -5,8 +5,6 @@ from torch.utils.data import DataLoader, random_split,Dataset
 import matplotlib.pyplot as plt
 import numpy as np
 from torch.optim.lr_scheduler import StepLR
-# import sklearn
-# from sklearn import datasets
 from PIL import Image
 import os
 from Hyperparameters import *

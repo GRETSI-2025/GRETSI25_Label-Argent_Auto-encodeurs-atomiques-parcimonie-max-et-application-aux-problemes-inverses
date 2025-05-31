@@ -52,8 +52,12 @@ def output_psnr_mse(img_orig, img_out):
 #===================================================================
 # Folder creation to save models
 #===================================================================
-
 def create_folder(cluster_path):
+    if not os.path.exists(cluster_path):
+        os.makedirs(cluster_path)
+        print("Folder "+cluster_path+" created")
+
+def create_folder_training(cluster_path):
     date_model=str(date.today())
     newpath = cluster_path+"Model_n_Res/"+date_model
 

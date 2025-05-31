@@ -22,7 +22,7 @@ torch.cuda.empty_cache()
 device = get_default_device()
 
 
-newpath=create_folder(cluster_path)
+newpath=create_folder_training(cluster_path)
 
 #===================================================================
 # IMPORT the corresponding dataset

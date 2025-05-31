@@ -10,6 +10,7 @@ from Hyperparameters import *
 from misc import import_projection
 
 
+
 #===================================================================
 # Returns 1 or 0 whether the atom is activated or not
 #===================================================================
