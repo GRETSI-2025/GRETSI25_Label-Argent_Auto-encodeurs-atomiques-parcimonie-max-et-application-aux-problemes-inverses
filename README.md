@@ -61,5 +61,13 @@ Return: Solutions of the super resolution inverse problem for (n="number_of_imag
 If you want to compute the average PSNR of the recovery of a whole testset uncomment the last line of inverse_problem.py (and rerun).
 
 
+## Expected execution time
+- trainer.py: as it trains an atomic autoencoder, it depends on the dataset size, the computing ressources, the number of epochs. For example, on MNIST of a size 30k, using A100 GPUs, and for a training of 3000 epochs, It needed ~6 hours.
+- decomposition.py: does not need more than a minute.
+- Inverse_problem.py: depends on the hyperparameters (size of the considered dataset, number of iterations of the dataset). For my experiments, I needed 15min to compute the average PSNRs of the recovered images for 600 images with 150 iterations of PGD algorithm. This visual results are outputed instantly.
+
+However, note that to reproduce the figures, one does not need more than a minute for all the command lines.
+
+
 
 
