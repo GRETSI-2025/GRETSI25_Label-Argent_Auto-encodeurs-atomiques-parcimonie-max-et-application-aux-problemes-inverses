@@ -76,6 +76,7 @@ best_epoch=0
  
 for epoch in range(epochs):
     autoencoder.train()
+    model_scripted_best = torch.jit.script(autoencoder)
     running_loss = 0.0
     for i, data in enumerate(train_loader, 0):
         inputs, _ = data

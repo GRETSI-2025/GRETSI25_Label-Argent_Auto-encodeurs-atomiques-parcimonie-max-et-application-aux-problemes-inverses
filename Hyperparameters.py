@@ -5,7 +5,7 @@ cluster_path='./'  #Working repository
 
 create_folder("Results/")
 
-datasets_NAME='FMNIST' #Other choice : "MNIST" or "FMNIST" 
+datasets_NAME='CIFAR10' #Other choices : "MNIST" or "FMNIST"  "CIFAR10"
 
 taille_image=28  #Image_size
 if datasets_NAME=='CIFAR10':
@@ -17,12 +17,12 @@ folder_results='Results'   #Folder to print results
 num_block=20   
 size_block=10  #corresponds to the structure of the latent code. Note : Latent_dim=num_block*size_block
 
-operation="sum"   #Other choice : "sum" or "simple" (to choose a simple autoencoder, might fail on scripts designed specifically for Atomic autoencoders)
+operation="max"   #Other choice : "max" "sum" or "simple" (to choose a simple autoencoder, might fail on scripts designed specifically for Atomic autoencoders)
 batch_size = 64  
 learning_rate = 0.0001
 epochs = 2   #Default 500 - may take some time
 dataset_size=10 #Train dataset size Default 30000 half the dataset
-subset_size = 600   #Default 600
+subset_size = 10000   #Default 600
 visualize_interval = 10  
 blur=0.7
 
