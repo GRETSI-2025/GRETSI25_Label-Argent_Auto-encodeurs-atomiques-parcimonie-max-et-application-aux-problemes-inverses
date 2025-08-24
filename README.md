@@ -1,5 +1,15 @@
 # Auto-encodeurs atomiques parcimonie-max et application aux problèmes inverses
 
+<hr>
+
+**_Dépôt labelisé dans le cadre du [Label Reproductible du GRESTI'25](https://gretsi.fr/colloque2025/recherche-reproductible/)_**
+
+| Label décerné | Auteur | Rapporteur | Éléments reproduits | Liens |
+|:-------------:|:------:|:----------:|:-------------------:|:------|
+| ![](label_argent.png) | Ali JOUNDI<br>[@aliJ99](https://github.com/aliJ99) | Charles TRUONG<br>[@deepcharles](https://github.com/deepcharles) |  Toutes les figures | 📌&nbsp;[Dépôt&nbsp;original](https://github.com/aliJ99/MAX_AAE_n_invP)<br>⚙️&nbsp;[Issue](https://github.com/GRETSI-2025/Label-Reproductible/issues/13)<br>📝&nbsp;[Rapport](https://github.com/akrah/test/tree/main/rapports/Rapport_issue_13) |
+
+<hr>
+
 Code for the paper "Auto-encodeurs atomiques parcimonie-max et application aux problèmes inverses" (GRETSI 2025)
 
 
